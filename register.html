@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Chinese food,Chinese cuisine,food culture">
+	<meta name="author" content="Xiaoyong_Cai">
+	<meta name="description" content="This is the main page of Chinese Cuisine">
+	<title>Register</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="http://faviconist.com/icons/72d74b03b503188ba71f098fb9ed9799/favicon.ico" />
+    <script language=JavaScript> var message="Function Disabled!"; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>
+</head>
+
+<body>
+
+<!--  The "div" below is a transparent background: a little dark color.-->
+      <div id="transparent_bg">
+        <div id="content">
+<!--        left_column section and right_colum div are used for image gallery. There are 4 images for each side--> 
+        	<section id="left_column">
+
+                   	<div><a href="src/01big.jpg" target="new"><img src="src/01.jpg" alt="Anhui Cuisine"></a></div>
+                    <div><a href="src/02big.jpg" target="new"><img src="src/02.jpg" alt="Fujian Cuisine"></a></div>
+                    <div><a href="src/03big.jpg" target="new"><img src="src/03.jpg" alt="Jiangsu Cuisine"></a></div>
+                    <div><a href="src/04big.jpg" target="new"><img src="src/04.jpg" alt="Hunan Cuisine"></a></div>
+
+            </section><!-- it is closed section tag for left_column-->
+<!--        center_column section is used for text and form, also i will put my footer in it-->
+            <section id="center_column">
+            	<article>
+                	<h2>Register</h2>
+                    <form method="get">
+                   	  <fieldset>
+                        <legend>Information:</legend>
+                   		<input type="text" name="New_user_name" id="New_user_name" size="18" maxlength="128" value="New user name">
+                        Check if someone used it?<br><br>
+                        <input type="password1" name="password1" id="password1" size="18" maxlength="128" value="Password"> and 
+                        <input type="password2" name="password2" id="password2" size="18" maxlength="128" value="Confirm Password"> <br>
+                        
+                       
+                    	<input type="radio" name="sex" value="male" id="male"> 
+                    	<label for="male">Male</label>
+                    	<input type="radio" name="sex" value="Female" id="Female"> 
+                    	<label for="Female">Female ;   </label>
+                        
+                          Your diploma is:
+                		<select>
+                			<option value="High_school">High school</option>
+                    		<option value="Bachelor">Bachelor</option>
+                    		<option value="Master">Master</option>
+                    		<option value="Doctor">Doctor</option>
+                		</select>
+                        <br><br>
+                        
+                        <label>Email : <input type="email" size="20"></label><br>
+                        Do you like Chinese foods?
+                        <div class="RadioButton"><label for="yes">yes</label><br><input type="radio" name="answer" value="yes" id="yes"></div>
+                        <div class="RadioButton"><label for="somewhat">somewhat</label><br><input type="radio" name="answer" value="somewhat" id="somewhat"></div>
+                        <div class="RadioButton"><label for="no">no</label><br><input type="radio" name="answer" value="no" id="no"></div><br>
+                        How do you like the website?<br>
+                        <textarea rows="2" cols="37"></textarea><br>
+                        <input type="submit" name="submit" id="submit" value="submit">
+                        <input type="reset" name="reset" id="reset" value="reset"><br>
+                                                   
+ 
+                      </fieldset>
+
+                    </form>
+                </article>
+                <footer><p>Copyright&copy;2013 <a href="mailto:uscxy@hotmail.com">uscxy@hotmail.com</a></p></footer>
+            </section>
+            <section id="right_column">
+
+                	<div><a href="src/05big.jpg" target="new"><img src="src/05.jpg" alt="Shangdong Cuisine"></a></div>
+                    <div><a href="src/06big.jpg" target="new"><img src="src/06.jpg" alt="Zhejiang Cuisine"></a></div>
+                    <div><a href="cantonse_cuisine.html" target="new"><img src="src/07.jpg" alt="Cantonese Cuisine"></a></div>
+                    <div><a href="src/08big.jpg" target="new"><img src="src/08.jpg" alt="Szechuan Cuisine"></a></div>
+
+            </section><!-- it is closed section tag for right_column--> 
+        </div><!-- it is closed div tag for content-->        
+      </div><!-- it is closed div tag for transparent_bg-->
+
+</body>
+</html>

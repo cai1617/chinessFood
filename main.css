@@ -1,0 +1,117 @@
+@charset "utf-8";
+html body{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width:100%;
+	color:#FFF;
+	background-color:#6FF;
+	background-image: url(src/bgimage1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+
+a:link {color: #FF0000}     /* 未被访问的链接 红色 */
+a:visited {color: #00FF00}  /* 已被访问过的链接 绿色 */
+a:hover {color: #FFFFFF}   /* 鼠标悬浮在上的链接 橙色 */
+a:active {color: #0000FF}   /* 鼠标点中激活链接 蓝色 */
+
+ 
+#transparent_bg{
+	padding:0px;
+	margin:350px 0 auto;
+	height:400px;
+	background-color:rgba(0,0,0,0.5);
+
+	}
+	
+#content{
+
+	margin:0px auto;
+	width:1100px;
+	height:400px;
+	background-color:rgba(0,0,0,0)
+	}
+#left_column{
+	background-color:rgba(0,0,0,0);
+	width:350px;
+	float:left;	
+	height:400px;
+	padding:0px;
+	}
+	
+	
+#left_column div,#right_column div{
+	float:left;
+	padding:7px;
+	}	
+#left_column div img,#right_column div img{
+	 width:155px;
+	 height:173px;
+	 border: 3px solid red;
+	 border-radius: 11px; 
+	-moz-border-radius: 11px; 
+	-webkit-border-radius: 11px; 
+	}
+
+#center_column{
+
+	width:400px;	
+	float:left;	
+	height:400px;
+	background-color:rgba(0,0,0,0);
+
+	}
+
+#right_column{
+
+	width:350px;
+	float:right;	
+	height:400px;
+	}
+
+article{
+	border:3px solid red;
+	width:350px;
+	height:330px;
+	margin: 10px auto;
+	overflow:auto;
+	font-weight:normal;
+	}
+
+
+footer{
+	border: 3px solid red;
+	width: 350px;
+	margin: 10px auto;
+	height: 20px;
+	text-align: center;
+	}
+footer p{
+	margin:0;
+	}
+	
+
+article p{
+	text-align:justify;
+	font-size:larger;}
+article h2{
+	text-align:center;}
+	
+.buttonImg{
+	background-image:url(src/Facebook_icon.jpg);
+	height:23px;
+	width:23px;
+	background-position:center;}
+	
+.RadioButton{;
+	float:right;
+	margin:0;
+	padding:2px;
+	text-align:center;
+	}
+fieldset textarea{
+	clear:right;}

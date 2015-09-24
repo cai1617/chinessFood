@@ -1,0 +1,100 @@
+@charset "utf-8";
+html body{
+	margin:0px;
+	padding:0px;
+	}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	width: 100%;
+	color: #FFF;
+	background-image: url(src/Cantonese_cuisine.jpg);
+	position:absolute;
+	left:0; 
+	top:0;
+	}
+	
+#dimsum{background-image:url(src/dimsum.jpg);}
+#Traditional_dishes{background-image:url(src/Traditional_dishes.jpg);}
+
+a:link {
+	color: #FFFFFF
+}
+a:visited {
+	color: #FFFFFF
+} 
+a:hover {
+	color: #000000
+} 
+a:active {
+	color: #CCCCCC
+}
+	
+
+
+
+#main_left_column{
+	float:left;
+	margin:0px 100px;
+	width:250px;
+	height:100%;
+	background-color:#000000;
+	background-color:rgba(0,0,0,0.2);
+
+	}
+header{
+	margin:10px auto;
+	width:240px;	
+	height:150px;
+	padding:5px;
+
+	}
+header h1{
+	text-transform:capitalize;
+	text-align:right;
+	}
+span{
+	color:#333;}
+aside{
+	text-align:right;
+	margin:10px auto;
+	padding:5px;
+	width:240px;	
+	height:250px;
+	}
+aside ul li{
+	text-transform:capitalize;
+	list-style-type:none;
+}
+ul li a{text-decoration:none;}
+#navMenu {
+	list-style-type:none;
+	}
+#navMenu ul li{
+	display:inline;
+
+	}
+footer{
+	margin:10px auto;
+	width:250px;	
+	height:60px;
+	text-align:right;
+	}
+#main_right_column{
+	float:right;
+	margin:0px 20px;
+	width:300px;
+	height:330px;
+	background-color:rgba(0,0,0,0.2);
+	}
+#introduction{
+	margin:10px auto;
+	width:278px;
+	height:300px;
+	}
+fugure{
+	border:1px solid green;
+	margin:10px auto;
+	width:278px;
+	height:80px;
+	}

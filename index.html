@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Chinese food,Chinese cuisine,food culture">
+	<meta name="author" content="Xiaoyong_Cai">
+	<meta name="description" content="This is the main page of Chinese Cuisine">
+	<title>Chinese Cuisine</title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="http://faviconist.com/icons/72d74b03b503188ba71f098fb9ed9799/favicon.ico" />
+    <script language=JavaScript> var message="Function Disabled!"; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>
+</head>
+
+<body>
+
+<!--  The "div" below is a transparent background: a little dark color.-->
+      <div id="transparent_bg">
+        <div id="content">
+<!--        left_column section and right_colum div are used for image gallery. There are 4 images for each side--> 
+        	<section id="left_column">
+
+                   	<div><a href="src/01big.jpg" target="new"><img src="src/01.jpg" alt="Anhui Cuisine"></a></div>
+                    <div><a href="src/02big.jpg" target="new"><img src="src/02.jpg" alt="Fujian Cuisine"></a></div>
+                    <div><a href="src/03big.jpg" target="new"><img src="src/03.jpg" alt="Jiangsu Cuisine"></a></div>
+                    <div><a href="src/04big.jpg" target="new"><img src="src/04.jpg" alt="Hunan Cuisine"></a></div>
+
+            </section><!-- it is closed section tag for left_column-->
+<!--        center_column section is used for text and form, also i will put my footer in it-->
+            <section id="center_column">
+            	<article>
+                	<h2>Chinese cuisine</h2>
+                    <p>Chinese cuisine is any of several styles originating from regions of China, some of which have become increasingly popular in other parts of the world. The history of Chinese cuisine stretches back for many centuries and produced changes from period to period and in each region according to regional climate, imperial fashions,and local preferences.Major traditions include 8 different types of Chinese cuisine. They are<strong> Cantonese, Anhui, Fujian, Hunan, Jiangsu, Shandong, Szechuan, and Zhejiang cuisines.</strong></p>
+                    <form method="get">
+                   	  <fieldset>
+                        	<legend>Log in:</legend>
+                   		<input type="text" name="User_name" id="User_name" size="15" maxlength="128" value="Your user name">
+                        <input type="password" name="password" id="password" size="15" maxlength="128" value="password">
+                            <input type="submit" name="submit" id="submit" value="Log in"><br>
+                           
+                        <input type="checkbox" name="Keep_me_signed_in" value="yes" id="Keep_me_signed_in"> 
+                   		<label for="Keep_me_signed_in">Keep me signed in</label><br>
+                        wanna
+                        <a href="register.html"><img src="src/register_icon.png" width="100" height="22" alt="Register_icon"></a> now ? or
+                         Log in Facebook:
+                        <button type="button" id="btn2" class="buttonImg"></button>
+                        </fieldset>
+
+                    </form>
+                </article>
+                <footer><p>Copyright&copy;2013 <a href="mailto:uscxy@hotmail.com">uscxy@hotmail.com</a></p></footer>
+            </section>
+            <section id="right_column">
+
+                	<div><a href="src/05big.jpg" target="new"><img src="src/05.jpg" alt="Shangdong Cuisine"></a></div>
+                    <div><a href="src/06big.jpg" target="new"><img src="src/06.jpg" alt="Zhejiang Cuisine"></a></div>
+                    <div><a href="cantonse_cuisine.html" target="new"><img src="src/07.jpg" alt="Cantonese Cuisine"></a></div>
+                    <div><a href="src/08big.jpg" target="new"><img src="src/08.jpg" alt="Szechuan Cuisine"></a></div>
+
+            </section><!-- it is closed section tag for right_column--> 
+        </div><!-- it is closed div tag for content-->        
+      </div><!-- it is closed div tag for transparent_bg-->
+
+</body>
+</html>
